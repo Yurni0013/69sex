@@ -10,7 +10,7 @@ module.exports.run = async (bot, message, args) => {
     .setColor("#0099ff")
     .setImage('https://media3.giphy.com/media/6FzEqwmOG8Awg/giphy.gif')
     .setTimestamp()
-    .setFooter('Nistype', 'https://i.imgur.com/gtBOpRE.jpg')
+    .setFooter('69Sex💋', 'https://i.imgur.com/3u1z5DT.gif');
 
     message.channel.send(botembed);
 }
