@@ -1,0 +1,27 @@
+{
+  "name": "REDONBOT",
+  "version": "0.0.1",
+  "description": "REDON BOT",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "author": "Yurni",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.3.3",
+    "cpu-stat": "^2.0.1",
+    "discord.js": "^11.4.2",
+    "discord.js-commando": "^0.10.0",
+    "ffmpeg": "0.0.4",
+    "ffmpeg-binaries": "^4.0.0",
+    "figlet": "^1.2.3",
+    "moment": "^2.24.0",
+    "ms": "^2.1.1",
+    "mysql": "^2.17.1",
+    "opusscript": "0.0.6",
+    "os": "^0.1.1",
+    "translate": "^1.1.0",
+    "ytdl-core": "^0.29.1"
+  }
+}
