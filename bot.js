@@ -24,7 +24,7 @@ fs.readdir("./commands/", (err, files) => {
 
 bot.on("ready", async () => {
   console.log(`${bot.user.username} est en ligne sur ${bot.guilds.size} serveur(s) !`);
-  bot.user.setActivity("Asuma | a!aide🔰", {type: "WATCHING"});
+  bot.user.setActivity("69Sex | s!aide💋", {type: "WATCHING"});
   bot.user.setStatus('idle');
 
 });
