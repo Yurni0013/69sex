@@ -2,12 +2,12 @@ const { RichEmbed } = require("discord.js")
 module.exports.run = async (bot, message, args) => {
 
 message.delete()
-if(!message.member.hasPermission("MANAGE_ROLES") || !message.guild.owner) return message.channel.send("[Asuma] : Vous n'avez pas la permission. :exclamation:");
-if(!message.guild.me.hasPermission(["MANAGE_ROLES", "ADMINISTRATOR"])) return message.channel.send("[Asuma] : Vous n'avez pas la permission. :spy:")
+if(!message.member.hasPermission("MANAGE_ROLES") || !message.guild.owner) return message.channel.send("[69sex] : Vous n'avez pas la permission. :exclamation:");
+if(!message.guild.me.hasPermission(["MANAGE_ROLES", "ADMINISTRATOR"])) return message.channel.send("[69sex] : Vous n'avez pas la permission. :spy:")
 let mutee = message.mentions.members.first() || message.guild.members.get(args[0]);
-if(!mutee) return message.channel.send("[Asuma] : L'utilisateur est introuvable. :exclamation:");
+if(!mutee) return message.channel.send("[69sex] : L'utilisateur est introuvable. :exclamation:");
 let reason = args.join(" ").slice(22);
-if(!reason) return message.channel.send("[Asuma] : Vous devez inscrire la raison du mute. :exclamation:");
+if(!reason) return message.channel.send("[69sex] : Vous devez inscrire la raison du mute. :exclamation:");
 
 let muterole = message.guild.roles.find(r => r.name === "Mute")
 if(!muterole) {
@@ -32,8 +32,8 @@ if(!muterole) {
 }
 
 mutee.addRole(muterole.id).then(() => {
-    mutee.send(`[Asuma] : Vous êtes mute pour : ${reason}. :exclamation:`).catch(err => console.log(err))
-    message.channel.send(`[Asuma] : L'utilisateur ${mutee.user.username} vient de se faire mute pour : ${reason}. :exclamation:`)
+    mutee.send(`[69sex] : Vous êtes mute pour : ${reason}. :exclamation:`).catch(err => console.log(err))
+    message.channel.send(`[69sex] : L'utilisateur ${mutee.user.username} vient de se faire mute pour : ${reason}. :exclamation:`)
 })
 
 let muteEmbed = new RichEmbed()
@@ -46,8 +46,8 @@ let muteEmbed = new RichEmbed()
     .addField("Date :", message.createdAt.toLocaleString())
     .addField("Raison :", reason)
 
-let sChannel = message.guild.channels.find(`name`, "asuma-logs")
-if(!sChannel) return message.channel.send("[Asuma] : Le channel #asuma-logs est introuvable. :exclamation:");
+let sChannel = message.guild.channels.find(`name`, "69sex-logs")
+if(!sChannel) return message.channel.send("[69sex] : Le channel #69sex-logs est introuvable. :exclamation:");
 
 sChannel.send(muteEmbed);
 }
