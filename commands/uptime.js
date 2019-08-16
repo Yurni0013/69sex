@@ -13,10 +13,10 @@ module.exports.run = (client, message, args) => {
     " secondes ";
 
   const uptimeEmbed = new Discord.RichEmbed()
-    .setColor("#f76227")
-    .addField(`🐍 ┇ Le bot est en ligne depuis:`, `${uptime}`)
+    .setColor("#FE012D")
+    .addField(`🔞 ┇ Le bot est en ligne depuis:`, `${uptime}`)
     .setTimestamp()
-    .setFooter('Nistype', 'https://i.imgur.com/gtBOpRE.jpg');
+    .setFooter('69Sex💋', 'https://i.imgur.com/3u1z5DT.gif');
 
   message.channel.send(uptimeEmbed);
   message.delete();
