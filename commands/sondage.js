@@ -13,7 +13,7 @@ message.delete()
         .setColor('#36393f')
         .addField(`Veuillez répondre par ✅ ou par ❌`, thingToEcho)
         .setTimestamp()
-        .setFooter(`Nistype`, bot.user.displayAvatarURL)
+        .setFooter('69Sex💋', 'https://i.imgur.com/3u1z5DT.gif');
         message.channel.send(sondage)
         .then(message => {
             message.react("✅")
