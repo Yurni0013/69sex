@@ -3,13 +3,13 @@ const Discord = require("discord.js");
 module.exports.run = async (bot, message, args) => {
     let bicon = bot.user.displayAvatarURL;
     let botembed = new Discord.RichEmbed()
-    .setAuthor('Asuma', 'https://i.imgur.com/gtBOpRE.jpg', 'https://discord.gg/KUNvmNu')
-    .setThumbnail('https://i.imgur.com/gtBOpRE.jpg')
-    .setColor("#EE82EE")
-    .addField('🐍 | Développeur:', '"Nistype#0013', true)
-    .addField('👓 | Version du BOT:', '1.2', true)
+    .setAuthor('69SEX', 'https://i.imgur.com/3u1z5DT.gif')
+    .setThumbnail('https://i.imgur.com/3u1z5DT.gif')
+    .setColor("#FBF8F8")
+    .addField('💓 | Développeur:', 'Nistype', true)
+    .addField('👓 | Version du BOT:', '1.0', true)
     .setTimestamp()
-    .setFooter('Nistype', 'https://i.imgur.com/gtBOpRE.jpg');
+    .setFooter('69Sex💋', 'https://i.imgur.com/3u1z5DT.gif');
 
     message.channel.send(botembed);
 }
