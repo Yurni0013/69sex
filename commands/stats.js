@@ -19,7 +19,7 @@ module.exports.run = async (bot, message, args) => {
     
              //let duration = moment.duration(bot.uptime).format(" D [days], H [hrs], m [mins], s [secs]");
              let embedStats = new Discord.RichEmbed()
-            .setTitle("***🐍 • Statistiques du serveur ***")
+            .setTitle("***👅 • Statistiques du serveur ***")
             .setColor("#00ff00")
             .addField("• User's :", `${bot.users.size.toLocaleString()}`, true)
             .addField("• Discord.js", `${version}`, true)
@@ -29,7 +29,7 @@ module.exports.run = async (bot, message, args) => {
             .addField("• Bits :", `\`${os.arch()}\``,true)
             .addField("• Plateforme :", `\`\`${os.platform()}\`\``,true)
             .setTimestamp()
-            .setFooter('Nistype', 'https://i.imgur.com/mFNBesU.jpg')
+            .setFooter('69Sex💋', 'https://i.imgur.com/3u1z5DT.gif');
     
             message.channel.send(embedStats)
             })
