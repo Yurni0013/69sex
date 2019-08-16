@@ -7,7 +7,7 @@ module.exports.run = async (bot, message, args) => {
     .setTitle("Avatar de l'utillisateur:")
     .setColor("#0099ff")
     .setTimestamp()
-    .setFooter('Nistype', 'https://i.imgur.com/gtBOpRE.jpg')
+    .setFooter('69Sex💋', 'https://i.imgur.com/3u1z5DT.gif');
       
     if (!message.mentions.users.first())  {
         botembed.setImage(message.author.avatarURL);
