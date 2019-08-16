@@ -11,9 +11,9 @@ module.exports.run = async (bot, message, args) => {
       return;
     }
     let rUser = message.guild.member(message.mentions.users.first() || message.guild.members.get(args[0]));
-    if(!rUser) return message.channel.send("[Asuma] L'utilisateur est introuvable. :exclamation:");
+    if(!rUser) return message.channel.send("[69sex] L'utilisateur est introuvable. :exclamation:");
     let rreason = args.join(" ").slice(22);
-    if(!rreason) return message.channel.send("[Asuma] : Vous devez inscrire la raison du report. :exclamation:");
+    if(!rreason) return message.channel.send("[69sex] : Vous devez inscrire la raison du report. :exclamation:");
 
     let reportEmbed = new Discord.RichEmbed()
     .setDescription(">rapporter")
@@ -24,8 +24,8 @@ module.exports.run = async (bot, message, args) => {
     .addField("Dâte :", message.createdAt.toLocaleString())
     .addField("Raison :", rreason);
 
-    let reportschannel = message.guild.channels.find(`name`, "asuma-logs");
-    if(!reportschannel) return message.channel.send("[Asuma] Le channel #asuma-logs est introuvable. :exclamation:");
+    let reportschannel = message.guild.channels.find(`name`, "69sex-logs");
+    if(!reportschannel) return message.channel.send("[69sex] Le channel #69sex-logs est introuvable. :exclamation:");
 
 
     message.delete().catch(O_o=>{});
