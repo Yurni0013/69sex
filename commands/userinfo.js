@@ -22,7 +22,7 @@ if (member.user.bot === true) {
             let embed = new Discord.RichEmbed()
                 //.setAuthor(member.user.username)
                 .setThumbnail((target.displayAvatarURL))
-                .setColor("#00ff00")
+                .setColor("#00000")
                 .addField("Pseudonyme", `${member.user.tag}`, inline)
                 .addField("ID", member.user.id, inline)
                 .addField("Surnom", `${member.nickname !== null ? `✔️ Nickname: ${member.nickname}` : "❌ N'as pas de surnom"}`, true)
