@@ -7,7 +7,7 @@ module.exports.run = async (bot, message, args) => {
     .setColor("#000000")
     .setThumbnail('https://i.imgur.com/3u1z5DT.gif')
     .addField('👅 ┇ Commandes staff:', '``ban,kick,clear,mute,tempmute,botmessage,dm,sondage``', true)
-    .addField('👄 ┇ Commandes membres:', '``bot,aide,avatar,ping,stats,uptime,rapporter``', true)
+    .addField('👄 ┇ Commandes membres:', '``bot,aide,avatar,ping,stats,uptime,rapporter,userinfo,serverinfo``', true)
     .addField('💦 ┇ Commandes fun:', '``calin,kiss,tg,veski``', true)
     .setTimestamp()
     .setFooter('69Sex💋', 'https://i.imgur.com/3u1z5DT.gif');
