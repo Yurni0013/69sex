@@ -21,6 +21,7 @@ if (member.user.bot === true) {
 
             let embed = new Discord.RichEmbed()
                 //.setAuthor(member.user.username)
+                .setTitle("Informations de l'utillisateur:")
                 .setThumbnail((target.displayAvatarURL))
                 .setColor("#00000")
                 .addField("😎 | Pseudonyme", `${member.user.tag}`, inline)
@@ -31,7 +32,7 @@ if (member.user.bot === true) {
                 .addField("🎮 | Joue à", `${member.user.presence.game ? `🎮 ${member.user.presence.game.name}` : "❌ Ne joue pas actuellement"}`,inline, true)
                 .addField("🥇 | Roles", `${member.roles.filter(r => r.id !== message.guild.id).map(roles => `\`${roles.name}\``).join(" **|** ") || "<:no:425632070036094986> No Roles"}`, true)
                 .addField("⏰ | Inscrit à discord depuis le", member.user.createdAt)
-                .setFooter(`${member.user.username}`)
+                .setFooter(`${member.user.username},(target.displayAvatarURL)`)
                 .setTimestamp()
     
             message.channel.send(embed);
