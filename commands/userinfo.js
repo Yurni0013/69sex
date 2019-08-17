@@ -30,9 +30,9 @@ if (member.user.bot === true) {
                 .addField("⚙️ | Bot", `${bot}`,inline, true)
                 .addField("⚫ | Status", `${status[member.user.presence.status]}`, inline, true)
                 .addField("🎮 | Joue à", `${member.user.presence.game ? `🎮 ${member.user.presence.game.name}` : "❌ Ne joue pas actuellement"}`,inline, true)
-                .addField("🥇 | Roles", `${member.roles.filter(r => r.id !== message.guild.id).map(roles => `\`${roles.name}\``).join(" **|** ") || "<:no:425632070036094986> No Roles"}`, true)
+                .addField("🥇 | Roles", `${member.roles.filter(r => r.id !== message.guild.id).map(roles => `\`${roles.name}\``).join(" **|** ") || "❌ No Roles"}`, true)
                 .addField("⏰ | Inscrit à discord depuis le", member.user.createdAt)
-                .setFooter(`${member.user.username}`,`(target.displayAvatarURL)`)
+                .setFooter(`${member.user.username}`)
                 .setTimestamp()
     
             message.channel.send(embed);
