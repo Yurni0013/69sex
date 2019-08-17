@@ -7,7 +7,7 @@ module.exports.run = async (bot, message, args) => {
     .setThumbnail('https://i.imgur.com/3u1z5DT.gif')
     .setColor("#FBF8F8")
     .addField('💓 | Développeur:', 'Nistype', true)
-    .addField('👓 | Version du BOT:', '1.0', true)
+    .addField('👓 | Version du BOT:', '1.1', true)
     .setTimestamp()
     .setFooter('69Sex💋', 'https://i.imgur.com/3u1z5DT.gif');
 
