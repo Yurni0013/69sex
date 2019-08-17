@@ -14,9 +14,9 @@ const member = message.mentions.members.first() || message.guild.members.get(arg
 let target = message.mentions.users.first() || message.author
 
 if (member.user.bot === true) {
-    bot = "<:bottag:425631858265423883> Yes";
+    bot = "👾 Oui";
   } else {
-    bot = "<:user:424958082691629057> No";
+    bot = "👤 Non";
   }
 
             let embed = new Discord.RichEmbed()
@@ -25,10 +25,10 @@ if (member.user.bot === true) {
                 .setColor("#00ff00")
                 .addField("Pseudonyme", `${member.user.tag}`, inline)
                 .addField("ID", member.user.id, inline)
-                .addField("Surnom", `${member.nickname !== null ? `<:yes:425632265993846795> Nickname: ${member.nickname}` : "<:no:425632070036094986> None"}`, true)
+                .addField("Surnom", `${member.nickname !== null ? `✔️ Nickname: ${member.nickname}` : "❌ N'as pas de surnom"}`, true)
                 .addField("Bot", `${bot}`,inline, true)
                 .addField("Status", `${status[member.user.presence.status]}`, inline, true)
-                .addField("Joue à", `${member.user.presence.game ? `🎮 ${member.user.presence.game.name}` : "<:no:425632070036094986> Ne joue pas actuellement"}`,inline, true)
+                .addField("Joue à", `${member.user.presence.game ? `🎮 ${member.user.presence.game.name}` : "❌ Ne joue pas actuellement"}`,inline, true)
                 .addField("Roles", `${member.roles.filter(r => r.id !== message.guild.id).map(roles => `\`${roles.name}\``).join(" **|** ") || "<:no:425632070036094986> No Roles"}`, true)
                 .addField("Inscrit à discord depuis le", member.user.createdAt)
                 .setFooter(`${member.user.username}`)
