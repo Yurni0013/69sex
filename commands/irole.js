@@ -4,9 +4,9 @@ module.exports.run = async (bot, message, args) => {
 let inline = true
 
     let role = args.join(` `)
-    if(!role) return message.reply("Specify a role!");
+    if(!role) return message.reply("Specifie le rôle!");
     let gRole = message.guild.roles.find(`name`, role);
-    if(!gRole) return message.reply("Couldn't find that role.");
+    if(!gRole) return message.reply("Impossible de trouver ce rôle.");
 
     const status = {
         false: "No",
