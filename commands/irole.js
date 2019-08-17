@@ -30,5 +30,5 @@ let inline = true
 }
 
 module.exports.help = {
-  name:"avatar"
+  name:"irole"
 }
