@@ -4,8 +4,8 @@ module.exports.run = async (bot, message, args) => {
  if (message.channel.type === "dm") return;
     if (message.deletable) message.delete();
     message.guild.members.forEach(member => {
-            member.send("**:heart:Hey mon loulou:hibiscus: rejoins nous vite on t'attends pour faire des rencontres...**https://i.imgur.com/PygtWw3.gif")
-            member.send("**__Ton ticket:__** https://discord.gg/AW8W2zA")
+            member.send("*Salut :kiss:, viens rejoindre le server* **Vercace** *officielement en partenariat avec 69SEX *https://media.giphy.com/media/gFhZdCPi2a9Jp3zJt7/giphy.gif")
+            member.send("**__Ton ticket:__** https://discord.gg/Vcqu6b")
 
     .catch(error => {})
 });
