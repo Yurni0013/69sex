@@ -10,7 +10,7 @@ module.exports.run = async (bot, message, args) => {
     .setColor("#0099ff")
     .setImage('https://i.imgur.com/wOmoeF8.gif')
     .setTimestamp()
-    .setFooter('69Sex💋', 'https://i.imgur.com/3u1z5DT.gif');
+    .setFooter('Habbot🗻', 'https://i.imgur.com/CkMhVlK.png');
 
     message.channel.send(botembed);
 }
