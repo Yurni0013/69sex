@@ -24,8 +24,8 @@ module.exports.run = async (bot, message, args) => {
     .addField("Dâte :", message.createdAt.toLocaleString())
     .addField("Raison :", rreason);
 
-    let reportschannel = message.guild.channels.find(`name`, "69sex-logs");
-    if(!reportschannel) return message.channel.send("[69sex] Le channel #69sex-logs est introuvable. :exclamation:");
+    let reportschannel = message.guild.channels.find(`name`, "bot-logs");
+    if(!reportschannel) return message.channel.send("[HABBOT] Le channel #bot-logs est introuvable. :exclamation:");
 
 
     message.delete().catch(O_o=>{});
