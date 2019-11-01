@@ -14,9 +14,9 @@ module.exports.run = (client, message, args) => {
 
   const uptimeEmbed = new Discord.RichEmbed()
     .setColor("#FE012D")
-    .addField(`🔞 ┇ Le bot est en ligne depuis:`, `${uptime}`)
+    .addField(`🎈 ┇ Le bot est en ligne depuis:`, `${uptime}`)
     .setTimestamp()
-    .setFooter('69Sex💋', 'https://i.imgur.com/3u1z5DT.gif');
+    .setFooter('Habbot🗻', 'https://i.imgur.com/CkMhVlK.png');
 
   message.channel.send(uptimeEmbed);
   message.delete();
