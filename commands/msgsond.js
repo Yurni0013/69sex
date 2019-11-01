@@ -6,7 +6,7 @@ module.exports.run = async (bot, message, args) => {
     .setColor("#000000")
     .setThumbnail('https://i.imgur.com/3u1z5DT.gif')
     .addField('**__Vous préférez :__**', '<:1f595:607149293547290624>  **Sans Préliminaire** ou :sweat_drops:  **Avec Préliminaire**', true)
-    .setFooter('69Sex💋', 'https://i.imgur.com/3u1z5DT.gif');
+    .setFooter('Habbot🗻', 'https://i.imgur.com/CkMhVlK.png');
     message.channel.send(botembed);
 }
 
