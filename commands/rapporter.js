@@ -11,9 +11,9 @@ module.exports.run = async (bot, message, args) => {
       return;
     }
     let rUser = message.guild.member(message.mentions.users.first() || message.guild.members.get(args[0]));
-    if(!rUser) return message.channel.send("[69sex] L'utilisateur est introuvable. :exclamation:");
+    if(!rUser) return message.channel.send("[HABBOT] L'utilisateur est introuvable. :exclamation:");
     let rreason = args.join(" ").slice(22);
-    if(!rreason) return message.channel.send("[69sex] : Vous devez inscrire la raison du report. :exclamation:");
+    if(!rreason) return message.channel.send("[HABBOT] : Vous devez inscrire la raison du report. :exclamation:");
 
     let reportEmbed = new Discord.RichEmbed()
     .setDescription(">rapporter")
