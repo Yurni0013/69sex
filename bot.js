@@ -24,7 +24,7 @@ fs.readdir("./commands/", (err, files) => {
 
 bot.on("ready", async () => {
   console.log(`${bot.user.username} est en ligne sur ${bot.guilds.size} serveur(s) !`);
-  bot.user.setActivity("69Sex | s!aide💋", {type: "WATCHING"});
+  bot.user.setActivity("Habbot Hotel| ;aide📘", {type: "WATCHING"});
   bot.user.setStatus('idle');
 
 });
@@ -45,7 +45,7 @@ bot.on("message", async message => {
 bot.on('guildMemberAdd', member => {
 member.createDM().then(channel => {
 return channel.send('Bienvenue sur le serveur **' + member.displayName + '** !'
-+ '\nRetrouve la liste de mes fonctionnalités avec la commande "**a!aide**"')
++ '\nRetrouve la liste de mes fonctionnalités avec la commande "**;aide**"')
 }).catch(console.error)
 })
 
