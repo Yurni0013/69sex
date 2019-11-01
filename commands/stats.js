@@ -29,7 +29,7 @@ module.exports.run = async (bot, message, args) => {
             .addField("• Bits :", `\`${os.arch()}\``,true)
             .addField("• Plateforme :", `\`\`${os.platform()}\`\``,true)
             .setTimestamp()
-            .setFooter('69Sex💋', 'https://i.imgur.com/3u1z5DT.gif');
+            .setFooter('Habbot🗻', 'https://i.imgur.com/CkMhVlK.png');
     
             message.channel.send(embedStats)
             })
