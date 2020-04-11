@@ -1,4 +1,4 @@
-# BOT DISCORD.JS
+# BOT DISCORD JS
 Bot general discord, moderation, fun.
 
 ### Setup
