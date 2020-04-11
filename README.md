@@ -1,14 +1,18 @@
 # BOT DISCORD.JS
 Bot general discord, moderation, fun.
 
-# Setup
+### Setup
 
-Install node-js then npm install in the bot folder.
+Install node-js then
+```
+npm install 
+```
+in the bot folder.
 
-# Config
+### Config
 
 Simply configure the bot discord token in the bot.js file
 
-# Started the bot
+### Started the bot
 
 cmd -> npm start bot.js
