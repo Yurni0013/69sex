@@ -9,3 +9,6 @@ Install node-js then npm install in the bot folder.
 
 Simply configure the bot discord token in the bot.js file
 
+# Started the bot
+
+cmd -> npm start bot.js
