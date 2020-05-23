@@ -15,7 +15,7 @@ Simply configure the bot discord token in the bot.js file
 
 ### Started the bot
 
-cmd -> npm node bot.js
+cmd -> node bot.js
 
 
 
